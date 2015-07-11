@@ -6,6 +6,7 @@ This is a PostgreSQL dump file containing all the Iraqi provinces presented as p
 
 
 #### Usage Example
+Pass the latitude and longitude coordinates to find out to which province they belong. 
 
 ```SQL
 SELECT province from iraq_provinces where area @> POINT(36.229574, 42.236244)
