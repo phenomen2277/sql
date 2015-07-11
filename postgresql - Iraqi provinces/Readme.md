@@ -10,4 +10,5 @@ Pass the latitude and longitude coordinates to find out to which province they b
 
 ```SQL
 SELECT province from iraq_provinces where area @> POINT(36.229574, 42.236244)
+# The output will be => Ninawa
 ```
